@@ -39,6 +39,9 @@ header img{
 
 li, a {
     color:rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+
 }
 .logo{
     cursor: pointer;
@@ -95,18 +98,40 @@ li, a {
 
 }
 
+.intro-info{
+    position:relative;
+    height:60%;
+    top:120px;
+    margin-left: 140px;
+    padding:2%;
 
-.intro-container h1{
+
+
+}
+
+.intro-info h1, #nikon_model{
+
+    color:rgb(206, 192, 0);
+
+}
+
+.intro-info p{
 
     color:white;
+
+ }
+.intro-info h1{
+
+ 
     position: relative;
-    top:100px;
+    font-weight: 800;
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
 
 
 }
 
-.intro-container h1 p{
+.intro-info h1 p{
     display:inline;
     font-family: 'Cinzel', serif;
 }
