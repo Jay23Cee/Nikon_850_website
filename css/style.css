@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght600;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+    
+}
+
+
+/*
+**
+**Header **
+**
+***/
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    padding-left:  10%;
+    background:rgba(243, 199, 5, 0.705);
+    
+}
+
+header img{
+    
+    width:5%;
+    justify-content: left;
+    
+
+}
+
+
+li, a {
+    color:rgb(0, 0, 0);
+}
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    padding-right:30vw;
+    list-style: none;
+    justify-content:  center;
+    align-items: center;
+  
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+  
+    
+}
+
+.nav_links li a{
+
+ 
+    transition:   all 0.3s ease 0s;
+
+}
+
+.nav-links li a:hover{
+    color: #ffffff
+}
+
+
+/*
+**
+**Into Section **
+**
+***/
+
+
+.Intro{
+   
+    background-color: #24252A;
+    
+}
+.intro-container{
+ 
+   background-repeat: no-repeat;
+   background-position: center;
+
+   height:90vh;
+   display:flex;
+   flex-direction: row-reverse;
+
+}
+
+
+.intro-container h1{
+
+    color:white;
+    position: relative;
+    top:100px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.intro-container h1 p{
+    display:inline;
+    font-family: 'Cinzel', serif;
+}
+
+#nikon-cam{
+    width:55%;
+    height:auto;
+    margin-right: 5vw;
+    
+   
+
+}
+
+
+/*
+**
+**About Section **
+**
+***/
+
+/* .About{
+    width:100%;
+    height:auto;
+} */
+
+
+
+
+/*
+**
+**Gallery Section **
+**
+***/
+
+/* .Gallery{
+    width:100%;
+    height:auto;
+} */
