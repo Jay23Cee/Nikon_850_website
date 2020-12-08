@@ -108,7 +108,7 @@ li, a {
 
 .intro-info h1, #nikon_model{
 
-    color:rgb(206, 192, 0);
+    color:rgba(243, 199, 5,.705);
 
 }
 
@@ -134,7 +134,7 @@ li, a {
 }
 
 #nikon-cam{
-    width:55%;
+    width:50%;
     height:auto;
     margin-right: 5vw;
     
@@ -148,6 +148,126 @@ li, a {
 **About Section **
 **
 ***/
+/*
+**
+**Carousel **
+**
+***/
+
+
+.carousel{
+    background:rgba(243, 199, 5);
+    background: radial-gradient(circle, rgba(243, 199, 5,.705) 0%, rgba(36,37,42,1) 40%);
+    
+}
+.carousel-wrap{
+
+    position:relative;
+    height:100vh;
+    width:80%;
+    margin:0 auto;
+
+
+}
+
+.carousel_image{
+    width:90vh;
+    height:auto;
+    object-fit:cover;
+    
+
+
+}
+
+
+.carousel_track-container{
+ 
+    height:90vh;
+    position:relative;
+    ;
+}
+
+
+.carousel_track{
+    padding:0;
+    margin:0;
+
+}
+
+.carousel_track ul{
+    list-style-type:none;
+}
+
+.carousel_slide{
+    position: absolute;
+    top:10vh;
+    bottom:0;
+    left:20vw;
+    width:60vw;
+    display:none;
+  
+
+}
+
+.carousel_slide--active{
+    display:block
+}
+
+.carousel_button{
+    position: absolute;
+    
+  
+    top:50%;
+    transform:translate(-50%);
+    background:transparent;
+    overflow: hidden;
+    border:0;
+    cursor: pointer;
+    
+}
+
+.carousel_button--left{
+    left:20vh;
+    z-index:1;
+    
+}
+
+.carousel_button--right{
+    right:-4vh;
+    
+    z-index:1;
+}
+
+.carousel_buttom img{
+    width:12px;
+}
+
+
+.carousel_nav{
+
+    display:flex;
+    justify-content: center;
+    padding: 10px 0 ;
+    
+
+}
+
+.carousel_indicator{
+    border:0;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background: rgba(0,0,0,.3);
+    margin: 0 12px;
+    
+}
+
+
+.current-slide{
+    background: rgba(0, 0, 0, 0.705);
+}
+
+
 
 /* .About{
     width:100%;
