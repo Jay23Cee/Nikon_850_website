@@ -204,13 +204,33 @@ li, a {
     bottom:0;
     left:20vw;
     width:60vw;
-    display:none;
-  
+     display:none;
+   
+   z-index: 100;
+   transition: transform .5s, opacity .5s, z-index .5s;
 
 }
 
 .carousel_slide--active{
-    display:block
+    display:block;
+    z-index:900;
+}
+
+
+/* Set 'z-index' to sit behind our '.active' item. */
+.carousel_slide.prev,
+.carousel_slide.next {
+  z-index: 800;
+}
+
+/* Translate previous item to the left */
+.carousel__photo.prev {
+  transform: translateX(-100%);
+}
+
+/* Translate next item to the right */
+.carousel__photo.next {
+  transform: translateX(100%);
 }
 
 .carousel_button{
@@ -235,7 +255,7 @@ li, a {
 .carousel_button--right{
     right:-4vh;
     
-    z-index:1;
+    z-index:999;
 }
 
 .carousel_buttom img{
