@@ -14,7 +14,7 @@
         // This assumes there are at least three items
 
       items[total_item - 1].classList.add("prev");
-        items[0].classList.add(itemClassName+"--active");
+        items[0].classList.add("active");
         items[1].classList.add("next");
 
     }
@@ -95,50 +95,44 @@ if (!moving){
     disableInteraction();
 
     //update the "old" adjacent slides with "new ones
-    var newPrevious = slide -1,
-        newNext = slide +1,
-        oldPrevious = slide -2,
-        oldNext = slide +2;
+    var newPrevious = slide - 1,
+    newNext = slide + 1,
+    oldPrevious = slide - 2,
+    oldNext = slide + 2;
 
+        // Test if carousel has more than three items
+        if ((total_item - 1) > 3) {
 
-    // check if carousel has more than three items
-    if ((total_item -1) > 1){
-        //check and updates if the new slides are out of bounds
-       
-        console.log("i'm at the part")
-        if(newPrevious <=0){
-            oldPrevious = (total_item-1);
-
-        }
-        else if(newNext >= (total_item -1)){
-            oldNext =0;
+        // Checks if the new potential slide is out of bounds and sets slide numbers
+        if (newPrevious <= 0) {
+            oldPrevious = (total_item - 1);
+        } else if (newNext >= (total_item - 1)){
+            oldNext = 0;
         }
 
-        // checks and updates if slide is at the beginning/end
-        if (slide ===0){
-            newPrevious = (total_item -1);
-            oldPrevious = (total_item -2);
-            oldNext = (slide +1);
-        } else if (slide ===(total_item -1)){
-            newPrevious = (slide -1);
+        // Check if current slide is at the beginning or end and sets slide numbers
+        if (slide === 0) {
+            newPrevious = (total_item - 1);
+            oldPrevious = (total_item - 2);
+            oldNext = (slide + 1);
+        } else if (slide === (total_item -1)) {
+            newPrevious = (slide - 1);
             newNext = 0;
-            oldNext =1;
+            oldNext = 1;
         }
 
-        // Now we've worked out where we are and where we're going, 
-        //by adding / removing classes we'll trigger the transitions.
+        // Now we've worked out where we are and where we're going, by adding and removing classes, we'll be triggering the carousel's transitions.
 
-        //Reset old next/prev elements to default classes
-        items[oldPrevious].className = itemClassName;      
+        // Based on the current slide, reset to default classes.
+
+        items[oldPrevious].className = itemClassName;
         items[oldNext].className = itemClassName;
 
-    
-        // add new classes
+        // Add the new classes
         items[newPrevious].className = itemClassName + " prev";
-        items[slide].className = itemClassName + "--active";
+        items[slide].className = itemClassName + " active";
         items[newNext].className = itemClassName + " next";
-       
-    }
+        }
 
 
 }

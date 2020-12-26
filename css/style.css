@@ -211,15 +211,15 @@ li, a {
 
 }
 
-.carousel_slide--active{
+.carousel_slide.active{
     display:block;
     z-index:900;
 }
 
 
 /* Set 'z-index' to sit behind our '.active' item. */
-.carousel_slide.prev,
-.carousel_slide.next {
+.carousel_slide .prev,
+.next {
   z-index: 800;
 }
 

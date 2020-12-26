@@ -18,3 +18,7 @@ Currently working on making a carousel.
         - image only changes once.
             - error: is currently is js. 132
                 could be the index and it's location.
+
+12/25/2020
+    Got the carousel working.
+    
