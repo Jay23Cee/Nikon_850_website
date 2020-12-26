@@ -20,5 +20,8 @@ Currently working on making a carousel.
                 could be the index and it's location.
 
 12/25/2020
-    Got the carousel working.
+    Got the carousel working. (Gallery is now done.)
+    need to change the px to rem or em.
+    need to make it web responsive
+    still need to add the about and details with images. (not a carousel!). 
     
