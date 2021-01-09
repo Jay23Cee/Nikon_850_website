@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    background-color: #24252A;
 
     
 }
@@ -23,14 +24,14 @@ header{
     justify-content: space-between;
     align-items: center;
     height:10vh;
-    padding-left:  10%;
+    padding-left:  5vw;
     background:rgba(243, 199, 5, 0.705);
     
 }
 
 header img{
     
-    width:5%;
+    width: 40px;
     justify-content: left;
     
 
@@ -42,6 +43,7 @@ li, a {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: 14px;
+  
 
 }
 .logo{
@@ -53,13 +55,15 @@ li, a {
     list-style: none;
     justify-content:  right;
     align-items: right;
-  
+    
 }
 
 .nav-links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 2vw;
     
+    
+  
   
     
 }
@@ -79,11 +83,7 @@ li, a {
 ***/
 
 
-.Intro{
-   
-    background-color: #24252A;
-    
-}
+
 .intro-container{
  
    background-repeat: no-repeat;
@@ -98,8 +98,8 @@ li, a {
 .intro-info{
     position:relative;
     height:60%;
-    top:120px;
-    margin-left: 140px;
+    top:20vh;
+    margin-left: 5vw;
     padding:2%;
 
 
@@ -134,7 +134,7 @@ li, a {
 }
 
 #nikon-cam{
-    width:50%;
+    width:50vw;
     height:auto;
     margin-right: 5vw;
     
@@ -284,7 +284,7 @@ li, a {
 
 
 .current-slide{
-    background: rgba(0, 0, 0, 0.705);
+    background: rgba(243, 199, 5, 0.568);
 }
 
 
