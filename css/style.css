@@ -7,7 +7,8 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-    background-color: #24252A;
+   
+    color:black;
 
     
 }
@@ -88,6 +89,7 @@ li, a {
  
    background-repeat: no-repeat;
    background-position: center;
+   background-color: #24252A;
 
    height:90vh;
    display:flex;
@@ -156,9 +158,8 @@ li, a {
 
 
 .carousel{
-    background:rgba(243, 199, 5);
-    background: radial-gradient(circle, rgba(243, 199, 5,.705) 0%, rgba(36,37,42,1) 40%);
-    
+    background: rgb(36,37,42);
+    background: linear-gradient(180deg, rgba(36,37,42,1) 96%, rgba(255,255,255,1) 98%);
 }
 .carousel-wrap{
 
@@ -277,14 +278,16 @@ li, a {
     border-radius:50%;
     width:15px;
     height:15px;
-    background: rgba(0,0,0,.3);
+    background: rgba(255, 255, 255, 0.3);
     margin: 0 12px;
+    display:none
     
 }
 
 
 .current-slide{
     background: rgba(243, 199, 5, 0.568);
+    display:none;
 }
 
 

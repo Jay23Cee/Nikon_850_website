@@ -24,4 +24,10 @@ Currently working on making a carousel.
     need to change the px to rem or em.
     need to make it web responsive
     still need to add the about and details with images. (not a carousel!). 
+
+
+1/17/2021:
+    Added information to the About Section.
+    Needs CSS styling. 
+    also need to add where to shop. 
     
