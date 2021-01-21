@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikon850 </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -41,10 +43,9 @@
 
     <section class="carousel" >
         <div class="carousel-wrap">
-            <button id="L-btn" class="carousel_button carousel_button--left ">
-                <img src="img/left.svg" alt="Left-button">
-            </button>
+
             <div class="carousel_track-container">
+                <div class="carousel_track-background"></div>
                 <div class="carousel_track">
                     <ul>
                         <li id="img1" class="carousel_slide" >
@@ -68,9 +69,16 @@
 
             </div>
             
-            <button id="R-btn" class="carousel_button carousel_button--right">
-                <img src="img/right.svg" alt="right-button">
-            </button>
+            <div class="carousel_control">
+                <button id="L-btn" class="carousel_button carousel_button--left ">
+                    <img src="img/left.svg" alt="Left-button">
+                </button>
+                <button id="R-btn" class="carousel_button carousel_button--right">
+                    <img src="img/right.svg" alt="right-button">
+                </button>
+
+            </div>
+
 
             <div class="carousel_nav">
                 <button class="carousel_indicator current-slide"></button>
@@ -83,12 +91,20 @@
        
     </section>
 
-    <section class="About">
-        <div class="container-wrap">
-            <H1>Extreme resolution meets extreme speed</H1>
-            <p>When Nikon introduced the D800 and D800E, it set a new benchmark for DSLR image quality and super high resolution photography that approached medium format. Now, five years later, Nikon proudly introduces the next evolution in high resolution DSLRs, a camera that allows photographers to capture fast action in 45.7 megapixels of brilliant resolution. With remarkable advancements across the board—sensor design, autofocus, dynamic range, sensitivity, Speedlight control, battery life, shutter and mirror drive mechanisms, Silent Photography in Live-View mode, focus shift capability and more—this is quite possibly the most impressive, well-rounded DSLR yet.</p>
+    <section class="about">
+        <div class="about-wrap">
+            <div class="about-content""> 
+                
+                <h3>Extreme resolution meets extreme speed</h3>
 
-            <ul>
+                <div class="about-description"><p>When Nikon introduced the D800 and D800E, it set a new benchmark for DSLR image quality and super high resolution photography that approached medium format. Now, five years later, Nikon proudly introduces the next evolution in high resolution DSLRs, a camera that allows photographers to capture fast action in 45.7 megapixels of brilliant resolution. With remarkable advancements across the board—sensor design, autofocus, dynamic range, sensitivity, Speedlight control, battery life, shutter and mirror drive mechanisms, Silent Photography in Live-View mode, focus shift capability and more—this is quite possibly the most impressive, well-rounded DSLR yet.</p></div>
+            
+            </div>
+
+            
+           
+            
+            <div class="about-overview"><ul>
                 <li>
                     <span>FX</span>
                     <span>Format</span>
@@ -121,7 +137,8 @@
                     <img src="/img/4k_logo.png" alt="">
                 </li>
                
-            </ol>
+            </ol></div>
+            
 
             
         </div>
