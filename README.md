@@ -31,3 +31,9 @@ Currently working on making a carousel.
     Needs CSS styling. 
     also need to add where to shop. 
     
+
+    1/21/2021:
+
+    Added more information to the about section. Adjusted the ul and ol
+    Need to change the font size of the li  of the ul. 
+    need to adjust the arrows of the carousel. 
