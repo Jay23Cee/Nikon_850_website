@@ -37,3 +37,15 @@ Currently working on making a carousel.
     Added more information to the about section. Adjusted the ul and ol
     Need to change the font size of the li  of the ul. 
     need to adjust the arrows of the carousel. 
+
+
+1/22/2021:
+    Starting creating a mobile design.
+    had a problem using vw at first but the meta required  
+    " maximum-scale=1.0, user-scalable=no"
+
+    Mobile design requires text to be adjusted.
+    the "FX Format section" has a scrolling list. needs to be bold and font size adjusted.
+
+    almost there. keep itup
+
