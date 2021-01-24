@@ -9,6 +9,7 @@
         box-sizing: border-box;
         margin: 0;
         padding:0;
+        
       
      
         
@@ -342,70 +343,119 @@ overflow: hidden;
     }
 
     .about-content{
-        width:80vw;
-        margin-left:12vw;
+        width:85vw;
+        margin-left:8vw;
+        text-align: center
+
         
     }
     
     .about-content h3{
-        font-size: 2em;
+        font-size: 2.67em;
         margin: 0px 0px 15px;
         font-weight: 300;
         line-height: 1.2em;
+        
+
     
     }
     
     
-    .about-detail{
+    .about-description{
        text-align: center;
-        font-size: .15em;;
+        font-size: 1.167em;;
      
         margin-top:15px;
         
         line-height: 1.67;
-        background:red;
-    }
-    
-    ul li{
-        display: list-item;
-    }
-    
-    
-    .about-overview{
-        margin-top: 5em;
-        
         
     }
+    
 
-    .about-overview-list{
-        margin-bottom: 2em;
-    }
+    
+    
 
+
+.about-overview{
+    position:relative;
+    
+
+    overflow-x:scroll;
+    overflow-y: hidden;
+    text-align: center;
+
+
+}
     .about-overview ul{
+        
         white-space:nowrap;
-        overflow: scroll;
-    }
-    
-    .about-overview li{
-        display: inline;
-        /* width:10em;
-        height:5em; */
+      
+        display:block;
+        text-align: left;
+        margin-inline-end: -28.19em;
+        margin-right: -28.19em;
+     
+
+        
     }
 
-    .about-overview-list li::after{
-        content: "|";
+    .about-overview ul::after{
+        box-sizing: border-box;
+        content:  " ";
+        display: table;
     }
-    
-    .about-overview-technology-list{
+
+
+    .about-overview li{
         display:inline-block;
-        margin-top: 2em;
+        padding-left:1.25em;
+        padding-right:2.5em;
+        width:auto;
+        height:7em;
+        border-right: .10em solid rgba(155, 127, 2, 0.705);;
+ overflow:hidden;
+    }
+
+.about-overview li:last-child{
+
+    border-right: none;
+}
+ 
+    
+
+
+.about-overview-label{
+   display:block;
+    font-size: 2.5em;
+    text-align: center;
+    list-style: none;
+    line-height:2.55em ;
+    
+}
+
+.about-overview-feature{
+    display:block;
+    line-height: 1.32em;
+    text-align: center;
+    font-size: 1.16em;
+    margin-top:-1.2em;
+}
+    
+.about-overview-technology-list{
+        
+    display:flex;
+    flex-direction: row;
+    column-gap: 1.2em;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;;
         
      
     
-    }
+}
     
     .thumbnail img{
-        width:10em;
+        width:30vw;
         height:auto;
     }
     

@@ -47,5 +47,8 @@ Currently working on making a carousel.
     Mobile design requires text to be adjusted.
     the "FX Format section" has a scrolling list. needs to be bold and font size adjusted.
 
-    almost there. keep itup
+    
+1/23/2021:
+    Finish mobile web response.
+    Still need to work on tablets. 
 
