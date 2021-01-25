@@ -1,32 +1,25 @@
-@media only screen and (min-width: 961px){ 
+
+@media (min-width:481px) and (max-width:960px){
+
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
-    
+
     @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght600;800&display=swap');
-    
-    
+
+
     *{
         box-sizing: border-box;
         margin: 0;
         padding:0;
+        
  
-        
-    
-        
     }
-
+    
     html, body{
         
         overflow-x: hidden;
 
         
-    }
-    
-    body{
-        font-size: 12px;
-        color:black;
-        font-family: Arial,Helvetica,sans-serif;
-        -webkit-font-smoothing: antialiased;
     }
     
     h3{
@@ -47,21 +40,21 @@
     **Header **
     **
     ***/
+
     
     header{
         display:flex;
         justify-content: space-between;
         align-items: center;
-        height:8vh;
+        height:5vh;
         padding-left:  5vw;
         background:rgba(243, 199, 5, 0.705);
-        overflow: hidden;
         
     }
     
     header img{
         
-        width: 4.5%;
+        width: 40px;
         justify-content: left;
         
     
@@ -72,8 +65,7 @@
         color:rgb(0, 0, 0);
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
-        font-size: 1.5em;
-        font-weight: 800;
+        font-size: 14px;
       
     
     }
@@ -87,13 +79,11 @@
         justify-content:  right;
         align-items: right;
         
-        
     }
     
     .nav-links li{
         display: inline-block;
         padding: 0 2vw;
-        
         
         
       
@@ -104,7 +94,6 @@
     
     .nav-links li a:hover{
         color: #ff0000;
-        
     
         transition:   all 0.6s ease 0s;
     }
@@ -124,19 +113,20 @@
        background-position: center;
        background: rgb(36,37,42);
        background: linear-gradient(180deg, rgba(36,37,42,1) 96%, rgba(255,255,255,1) 98%);
-        font-size:1.25em;
-       height:90vh;
+    
+       height:97vh;
        display:flex;
        flex-direction: row-reverse;
     
     }
     
     .intro-info{
-        position:relative;
-        height:60%;
-        top:20vh;
-        margin-left: 15vw;
-        padding:2%;
+        position: absolute;;
+        max-width:60vw;
+        
+        top: 70vw;
+        left: 20vw;
+        
     
     
     
@@ -158,7 +148,7 @@
      
         position: relative;
         font-weight: 800;
-        font-size: 5em;
+        font-size: 40px;
         font-family: 'Open Sans', sans-serif;
     
     
@@ -171,21 +161,19 @@
     
     #nikon-cam{
         width:auto;
-        height:40vw;
-        min-height:20vw;
-        margin-right: 10vw;
-        margin-top: 8vh;
+        
+        max-height:55vw;
+     
+        margin-right: 20vw;
+        margin-top: 2vw;
         
        
     
     }
     
     
-    /*
-    **
-    **About Section **
-    **
-    ***/
+    
+   
     /*
     **
     **Carousel **
@@ -199,16 +187,15 @@
     .carousel-wrap{
     
         position:relative;
-        height:70vh;
+        height:40vh;
         width:80%;
         margin:0 auto;
-        overflow: hidden;
     
     
     }
     
     .carousel_image{
-        max-width:95%;
+        width:90%;
         height:auto;
         object-fit:fill;
         
@@ -218,14 +205,16 @@
     
     
     .carousel_track-container{
-     
-        width:720px;
-        height:100vh;
+     background:transparent;
+        width:70vw;;
+        height:50vh;
     
         position:relative;
     
-        margin-left: 14px;
-      
+        margin-left: 5vw;
+        margin-top: 5vh;
+        margin-bottom:54vh;
+overflow: hidden;
      
     }
     
@@ -289,7 +278,7 @@
         position: absolute;
         
       
-        top:50%;
+        min-width:15vw;
         transform:translate(-50%);
         background:transparent;
         overflow: hidden;
@@ -302,19 +291,19 @@
      
         z-index:1;
         writing-mode :horizontal-tb;
+        top:20vw;
         left:10vw;
-        
     }
     
     .carousel_button--right{
         writing-mode: horizontal-tb;
-        right:4%;
-        
-        z-index:2;
+        right:-10vw;
+        top:20vw;
+        z-index:999;
     }
     
     .carousel_buttom img{
-        width:12px;
+        width:.1em;
     }
     
     
@@ -348,62 +337,51 @@
     
     /* ABOUT SECTION HERE  */
     .about{
-
         width:100vw;
-        margin-right: 5.91em;
-        margin-left:9vw;
-        padding-left: 10vw;
-        padding-right:1.02em;
+        margin:0;
+        padding:0;
         line-height: 1.7em;
         text-align: center;
         -webkit-font-smoothing:antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-    
+
     .about-content{
-        width:50vw;
-    }
-    .about-content h3{
-        font-size: 4em;
-        margin: 0px 0px 15px;
+        width:85vw;
+        margin-left:8vw;
+        margin-top:10vw;
+        text-align: center
+
         
-        font-weight: 300;
-        line-height: 1.2em;
-    
     }
+
+
     
     
-    .about-detail{
-       text-align: center;
-        font-size: 1em;;
-     
-        margin-top:15px;
-        
-        line-height: 1.67;
-        background:red;
-    }
-    
-    ul li{
-        display: list-item;
-    }
-    
+
 
 .about-overview{
     position:relative;
+    
 
+    overflow-x:scroll;
+    overflow-y: hidden;
     text-align: center;
-    left:min( -160px, 20vw);
-   
+    margin-top: 1.5em;
 
 
 }
     .about-overview ul{
         
         white-space:nowrap;
+      
         display:block;
         text-align: left;
+        margin-inline-end: -28.19em;
+        margin-right: -28.19em;
+     
+
         
- 
     }
 
     .about-overview ul::after{
@@ -415,10 +393,8 @@
 
     .about-overview li{
         display:inline-block;
-        
-        padding-left:.25em;
+        padding-left:1.25em;
         padding-right:2.5em;
-        margin-top:1.5em;
         width:auto;
         height:7em;
         border-right: .10em solid rgba(155, 127, 2, 0.705);;
@@ -435,7 +411,7 @@
 
 .about-overview-label{
    display:block;
-    font-size: 2.0em;
+    font-size: 2.5em;
     text-align: center;
     list-style: none;
     line-height:2.55em ;
@@ -446,7 +422,7 @@
     display:block;
     line-height: 1.32em;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.16em;
     margin-top:-1.2em;
 }
     
@@ -456,23 +432,22 @@
     flex-direction: row;
     column-gap: 1.2em;
     margin-top: 2em;
-    margin-left:14vw;
- 
+    align-items: center;
+    justify-content: center;;
         
      
     
 }
     
     .thumbnail img{
-        max-width:10vw;
+        width:25vw;
         height:auto;
     }
     
     .thumbnail-4k img{
-        width:3em;
+        width:8vw;
     
     }
-    
     
     
     
@@ -488,6 +463,11 @@
         width:100%;
         height:auto;
     } */
-    
-    
-    }
+
+
+
+}
+
+
+
+

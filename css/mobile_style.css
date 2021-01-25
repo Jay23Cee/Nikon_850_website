@@ -16,11 +16,11 @@
     }
     
     html, body{
-        
+    
+    }    
         overflow-x: hidden;
 
         
-    }
     
     h3{
         display:block;
@@ -40,17 +40,17 @@
     **Header **
     **
     ***/
-    
     header{
         display:flex;
         justify-content: space-between;
         align-items: center;
         height:5vh;
-        width:100vw;
         padding-left:  5vw;
         background:rgba(243, 199, 5, 0.705);
         
     }
+    
+
     
     header img{
         
@@ -122,8 +122,8 @@
     .intro-info{
         position: absolute;;
         width:80vw;
-        top:65vh;
-        left: 2vw;
+        top:65w;
+        left: 13vw;
         
     
     
@@ -161,7 +161,7 @@
         width:auto;
         max-height:70vw;
         
-        margin-right: 10vw;
+        margin-left: 12vw;
         margin-top: 8vh;
        
         

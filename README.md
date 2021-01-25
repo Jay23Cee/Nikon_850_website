@@ -52,3 +52,9 @@ Currently working on making a carousel.
     Finish mobile web response.
     Still need to work on tablets. 
 
+
+2/24/2021:
+    Created a tablet css.
+    need to update the desktop overview-list
+    
+
