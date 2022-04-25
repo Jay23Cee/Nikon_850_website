@@ -3,7 +3,8 @@
 
 **Version 1.0.1***
 
-Creating a Nikon Concept website using HTML5, CSS3 and Javascript for animations. 
+Creating a Nikon 850 Concept website.
+In attempts to replicating it's original site. https://www.nikonusa.com/en/nikon-products/product/dslr-cameras/d850.html
 
 
 
