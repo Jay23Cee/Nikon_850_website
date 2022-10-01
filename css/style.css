@@ -194,7 +194,9 @@
     
     
     .carousel{
-    background:white;
+   
+    height:600px;
+
     }
     .carousel-wrap{
     
@@ -208,21 +210,23 @@
     }
     
     .carousel_image{
-        max-width:90%;
+       /* width:650px;
         height:auto;
         object-fit:fill;
         
-    
-    
+     */ 
+     max-width:65vw;
+        margin-left:3vw;
     }
     
     
     .carousel_track-container{
-     
-        width:720px;
-        height:100vh;
-    
-        position:relative;
+  
+        width:100vw;
+        height:800px;
+        overflow: hidden;
+       justify-content: center;
+
     
         margin-left: 14px;
       
@@ -283,6 +287,9 @@
     
     .carousel_control{
         text-align: left;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .carousel_button{
@@ -308,7 +315,7 @@
     
     .carousel_button--right{
         writing-mode: horizontal-tb;
-        right:4%;
+        margin-left: min(900px, 99%);
         
         z-index:2;
     }
@@ -350,10 +357,7 @@
     .about{
 
         width:100vw;
-        margin-right: 5.91em;
-        margin-left:9vw;
-        padding-left: 10vw;
-        padding-right:1.02em;
+
         line-height: 1.7em;
         text-align: center;
         -webkit-font-smoothing:antialiased;
@@ -361,7 +365,8 @@
     }
     
     .about-content{
-        width:50vw;
+        width:60vw;
+        display:inline-grid
     }
     .about-content h3{
         font-size: 4em;
@@ -389,7 +394,9 @@
     
 
 .about-overview{
-    position:relative;
+    display:grid;
+    justify-content: center;
+    align-items: center;
 
     text-align: center;
     left:min( -160px, 20vw);
@@ -454,10 +461,9 @@
         
     display:flex;
     flex-direction: row;
-    column-gap: 1.2em;
-    margin-top: 2em;
-    margin-left:14vw;
- 
+  justify-content: center;
+  align-items: center;
+
         
      
     
