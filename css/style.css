@@ -195,6 +195,9 @@
     
     .carousel{
    
+        display:flex;
+        justify-content: center;
+        align-content: center;
     height:600px;
 
     }
@@ -202,7 +205,7 @@
     
         position:relative;
         height:82vh;
-        width:80%;
+        width:100%;
         margin:0 auto;
         overflow: hidden;
     
@@ -216,7 +219,7 @@
         
      */ 
      max-width:65vw;
-        margin-left:3vw;
+        /* margin-left:3vw; */
     }
     
     
@@ -238,7 +241,8 @@
     
     .carousel_track{
         padding:0;
-        margin-left:10vw;
+        justify-content: center;
+        display:flex;
        align-content:center;
         justify-items: center;
         align-items: center;
@@ -254,7 +258,7 @@
         top:10vh;
         bottom:0;
         left:20vw;
-        width:60vw;
+        
          display:none;
        
        z-index: 100;
@@ -309,20 +313,18 @@
      
         z-index:1;
         writing-mode :horizontal-tb;
+    
         left:10vw;
-        
     }
     
     .carousel_button--right{
         writing-mode: horizontal-tb;
-        margin-left: min(900px, 99%);
         
+        margin-left: min(900px, 99%);
         z-index:2;
     }
     
-    .carousel_buttom img{
-        width:12px;
-    }
+ 
     
     
     .carousel_nav{
